@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form input Biodata</title>
+</head>
+<body>
+<fieldset> <legend> Informasi Biodata </legend>
+	<form>
+		<table>
+			<tr>
+				<td> Nama Lengkap </td>
+				<td> : </td>
+				<td> &nbsp; </td>
+				<td> <input type="text" placeholder="Nama Anda" size="20" name="hername" maxlength="50"></td>
+			</tr>
+			<tr>
+				<td> Tempat, Tanggal Lahir </td>
+				<td> : </td>
+				<td> &nbsp; </td>
+				<td> <input type="text" placeholder="Tempat Lahir Anda" size="20" name="herttl" maxlength="50">
+					 <input type="text" placeholder="DD" size="1" name="Tanggal" maxlength="2"> 
+					 -
+					 <input type="text" placeholder="MM" size="1" name="Bulan" maxlength="2"> 
+					 -
+					 <input type="text" placeholder="YYYY" size="1" name="Tahun" maxlength="4">
+				</td>
+			</tr>
+			<tr>
+				<td> Alamat </td>
+				<td> : </td>
+				<td> &nbsp; </td>
+				<td> <textarea name="Komentar" rows="5" cols="50">  </textarea> </td>
+			</tr>
+			<tr>
+				<td> No.Telp/HP </td>
+				<td> : </td>
+				<td> &nbsp; </td>
+				<td> <input type="text" name="Telp" size="20" maxlength="50"> </td>
+			</tr>
+			<tr>
+				<td> Jenis Kelamin </td>
+				<td> : </td>
+				<td> &nbsp; </td>
+				<td> <input type="radio" name="jk"> Laki-Laki
+				     <input type="radio" name="jk"> Perempuan 
+				</td>
+			</tr>
+			<tr>
+				<td> Agama </td>
+				<td> : </td>
+				<td> &nbsp; </td>
+				<td> <select name="Agama">
+				<option value="Islam"> Islam
+				<option value="Kristen"> Kristen
+				<option value="Hindu"> Hindu
+				<option value="Budha"> Budha
+					 </select>
+				</td>	
+			</tr>
+			<tr>
+				<td> Hoby </td>
+				<td> : </td>
+				<td> &nbsp; </td>
+				<td>
+					<input type="checkbox" name="baca buku"> Baca Buku 
+					<input type="checkbox" name="olah raga"> Olah Raga 
+					<input type="checkbox" name="main Game"> Main Game
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+					<td> &nbsp; </td>
+					<td>
+					<input type="checkbox" name="lainnya"> Lainnya <input type="text" placeholder="Tuis Disini....." size="10" name="Lainnya" maxlength="50">
+					</td>
+				
+			</tr>
+			<tr>
+				
+				<td></td>
+					<td></td>
+						<td></td>
+							<td>
+					<input type="submit" value="Submit">
+					<input type="reset" value="Clear!">
+				</td>
+
+			</tr>
+		</table>
+	</form>
+</fieldset>
+</body>
+</html>
